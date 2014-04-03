@@ -1,3 +1,10 @@
+;;; File:
+;;;   utils.rkt
+;;; Author:
+;;;   Your Name Here
+;;; Summary:
+;;;   A few sample utilities, created as part of a lab on GitHub.
+
 #lang racket
 
 (require gigls/unsafe)
@@ -15,6 +22,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define nums
+(define nums-n-numbers
   (lambda (n)
     (cdr (iota (+ n 1)))))
